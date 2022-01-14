@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background-color: gray;
+}
+
+
+.nav{
+    height: 1.2rem;
+    width: 100vw;
+    padding: 2rem 3rem;
+    background-color: rgb(70, 70, 70);
+    position: fixed;
+    z-index: 2;
+    color: white;
+}
+
+.nav_menu{
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.nav_item{
+
+    height: 1.2rem;
+    overflow: hidden;
+    width: auto;
+    padding: 0 0.6rem 0.6rem 0.6rem;
+    background-color: rgb(70, 70, 70);
+}
+
+.nav_link{
+    list-style: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.nav_link:hover{
+    transform: scale(1.2);
+}
+
+.nav_item:hover{
+    height: auto;
+}
+
+.main{
+    width: 60%;
+    margin: auto;
+    padding: 7rem 2rem;
+    background-color: grey;
+    color: white;
+
+}
+
+.main_text{
+    width: 60%;
+    display: none;
+    border: solid 1px lightgray;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+.main_header{
+    font-size: 2rem;
+}
+
+.main_subheader{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.main_section{
+    margin: 0.4rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(70, 70, 70);
+}
+
+
+.main_table{
+    margin: 3rem 2%;
+    width: 96%;
+}
+.main_table, tr, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.main_subNav{
+    position: fixed;
+    top: 6rem;
+    left: 60%;
+    z-index: 1;
+}
+
+.main_subMenu{
+    display: none;
+    list-style: none;
+}
+
+.main_link{
+    padding: 0.5rem 0;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.main_link:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
